@@ -1,0 +1,12 @@
+﻿{
+  "name": "betanov-3-site",
+  "version": "1.0.0",
+  "description": "Static build of the project split into HTML, CSS, and JS.",
+  "scripts": {
+    "start": "lite-server",
+    "dev": "lite-server"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
