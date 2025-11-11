@@ -794,6 +794,7 @@
       opacity: 0.2;
       transition: opacity 0.6s ease;
       animation: cardGlow 12s ease-in-out infinite;
+      pointer-events: none;
     }
 
     .overview-gallery__item:hover {
@@ -812,6 +813,7 @@
       object-fit: contain;
       background: rgba(238, 243, 252, 0.9);
       transition: transform 0.6s ease, filter 0.6s ease;
+      cursor: zoom-in;
     }
 
     .overview-gallery__item:hover img {
